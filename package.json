@@ -6,5 +6,27 @@
     "bootstrap-vue": "^2.22.0",
     "lottie-web-vue": "^2.0.6",
     "vue": "^2.7.10"
+  },
+  "name": "my-portfolio-w4",
+  "description": "Still a wonderfully chaotic work in progress.  **Chef's kiss**",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patcard21/portfolio2022.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patcard21/portfolio2022/issues"
+  },
+  "homepage": "https://github.com/patcard21/portfolio2022#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.18.13"
   }
 }
