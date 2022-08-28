@@ -101,7 +101,7 @@ font-family: 'Silkscreen', cursive;-->
           <div class="col-sm">
 
             <div class="lottieOne"> 
-      <lottie-player src="https://lottie.host/1e31d500-c4f7-4c9c-a5f7-dd2527b930be/0nhRlf4tqF.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></lottie-player>
+      <lottie-player src="/hello-anima.json" id="lottieOne" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></lottie-player>
             
             </div>
             </div>
@@ -388,8 +388,27 @@ font-family: 'Silkscreen', cursive;-->
 
 
 <!--Internal JavaScript-->
+<script src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js"></script>
 <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-     <script>
+<script src="src/main.js"></script>
+<script src="src/hello-anima.js"></script>
+
+
+<script>
+LottieInteractivity.create({
+    player: "#lottieOne",
+    mode:"scroll",
+    actions: [
+        {
+            position: { x: [0, 1], y: [0, 1] },
+            type: "seek",
+            frames: [0, 280]
+        }
+    ]
+});
+</script>
+    
+    <script>
       function submitForm() {
          alert("Message sent!");
       }
