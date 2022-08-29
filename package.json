@@ -2,9 +2,12 @@
   "dependencies": {
     "@lottiefiles/lottie-interactivity": "^1.6.1",
     "@lottiefiles/lottie-player": "^1.5.7",
+    "@volar/vue-language-service": "^0.40.4",
     "bootstrap": "^5.2.0",
     "bootstrap-vue": "^2.22.0",
+    "i": "^0.3.7",
     "lottie-web-vue": "^2.0.6",
+    "npm": "^8.18.0",
     "vue": "^2.7.10"
   },
   "name": "my-portfolio-w4",
