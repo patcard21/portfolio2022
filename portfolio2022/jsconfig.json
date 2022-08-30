@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "types": ["retry"],
     "target": "es2015",
     "module": "esnext",
     "baseUrl": "./",
@@ -8,5 +9,5 @@
     },
     "jsx": "preserve"
   },
-  "include": ["src/**/*.vue", "src/**/*.js"]
+  "include": ["src/.vue", "src/.js"]
 }
