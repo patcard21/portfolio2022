@@ -8,14 +8,18 @@
     "i": "^0.3.7",
     "lottie-web-vue": "^2.0.6",
     "npm": "^8.18.0",
-    "vue": "^2.7.10"
+    "core-js": "^3.8.3",
+    "vue": "^3.2.13"
   },
   "name": "my-portfolio-w4",
   "description": "Still a wonderfully chaotic work in progress.  **Chef's kiss**",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
   },
   "repository": {
     "type": "git",
@@ -29,14 +33,13 @@
   },
   "homepage": "https://github.com/patcard21/portfolio2022#readme",
   "devDependencies": {
-    "@babel/cli": "^7.18.10",
-    "@babel/core": "^7.18.13",
-    "babel-eslint": "^10.1.0",
-    "eslint": "^8.23.0",
-    "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-prettier": "^4.2.1",
-    "eslint-plugin-promise": "^6.0.1",
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3",
     "vue-tsc": "^0.40.4"
   }
 }
