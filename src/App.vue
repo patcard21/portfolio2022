@@ -1,6 +1,13 @@
-<script setup>
+<script>
 import { RouterLink, RouterView } from "vue-router";
 import HelloWorld from "./components/HelloWorld.vue";
+import "./assets/main.css";
+
+import { BootstrapVue, IconsPlugin } from "bootstrap-vue";
+
+export default {
+  gridTransition() {},
+};
 </script>
 
 <template>
@@ -12,7 +19,13 @@ import HelloWorld from "./components/HelloWorld.vue";
       width="125"
       height="125"
     />
-
+    <b-container class="bv-example-row">
+      <b-row>
+        <b-col>1 of 3</b-col>
+        <b-col>2 of 3</b-col>
+        <b-col>3 of 3</b-col>
+      </b-row>
+    </b-container>
     <div class="wrapper">
       <HelloWorld msg="You did it!" />
 
