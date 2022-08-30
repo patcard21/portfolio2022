@@ -30,6 +30,13 @@
   "homepage": "https://github.com/patcard21/portfolio2022#readme",
   "devDependencies": {
     "@babel/cli": "^7.18.10",
-    "@babel/core": "^7.18.13"
+    "@babel/core": "^7.18.13",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.23.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.0.1",
+    "vue-tsc": "^0.40.4"
   }
 }
